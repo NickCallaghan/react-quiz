@@ -1,6 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// CSS dependencies for App
+import "./assets/main.css";
+import "primereact/resources/themes/nova-light/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
+
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 

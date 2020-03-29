@@ -1,6 +1,6 @@
 # React Quiz App
 
-This project is to create a simple quiz app in react.
+This project is to create a simple quiz app in react. Tailwind css is used for styling
 
 ## Available Scripts
 
