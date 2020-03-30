@@ -17,8 +17,8 @@ export default function Start(props) {
   return (
     <div className="flex flex-col justify-center py-12 bg-indigo-300 min-h-screen">
       <h1 className="text-center font-bold text-4xl text-gray-100 mb-12">
-        Welcome to{" "}
-        <span className="text-indigo-500 border-indigo-500 border-solid border-4 px-3 mr-2 ml-1 py-0 inline-block">
+        Welcome to
+        <span className="text-indigo-500 border-indigo-500 border-solid border-4 px-3 mx-2 py-0 inline-block">
           React
         </span>
         Quiz
