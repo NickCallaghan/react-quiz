@@ -23,7 +23,7 @@ export default function Question(props) {
   }, [isCorrect, dispatch]);
 
   const header = (
-    <div className="bg-indigo-700 text-xl white py-4 px-4 font-semibold text-white">
+    <div className="bg-indigo-500 text-xl white py-4 px-4 font-semibold text-white">
       {questionText}
     </div>
   );

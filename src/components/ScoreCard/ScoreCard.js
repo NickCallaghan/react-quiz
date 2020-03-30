@@ -18,12 +18,12 @@ export default function ScoreCard() {
         Scorecard
       </h1>
       <div className="flex flex-col md:flex-row justify-center py-3">
-        <Tile heading="Total Answered" value={questionsAnswered}></Tile>
-        <Tile heading="Correct" value={questionsCorrect}></Tile>
+        <Tile heading="Correct" value={questionsCorrect} />
         <Tile
           heading="Incorrect"
           value={questionsAnswered - questionsCorrect}
-        ></Tile>
+        />
+        <Tile heading="Total Answered" value={questionsAnswered} />
       </div>
     </div>
   );
