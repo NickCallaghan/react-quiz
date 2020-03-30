@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import QuestionsProvider from "./contexts/QuestionsContext";
 import QuizSessionProvider from "./contexts/QuizSessionContext";
 import DispatchProvider from "./contexts/QuizSessionContext";
+import { BrowserRouter } from "react-router-dom";
 
 // CSS dependencies for App
 import "./assets/main.css";
@@ -14,14 +15,16 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <QuestionsProvider>
-      <QuizSessionProvider>
-        <DispatchProvider>
-          <App />
-        </DispatchProvider>
-      </QuizSessionProvider>
-    </QuestionsProvider>
+  <React.StrictMode basename={"/react-quiz"}>
+    <BrowserRouter>
+      <QuestionsProvider>
+        <QuizSessionProvider>
+          <DispatchProvider>
+            <App />
+          </DispatchProvider>
+        </QuizSessionProvider>
+      </QuestionsProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

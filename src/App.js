@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import Question from "./components/Question/Question";
+import ScoreCard from "./components/ScoreCard/ScoreCard";
+
 import { QuestionsContext } from "./contexts/QuestionsContext";
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       {questions.map(q => (
         <Question question={q} key={q.id} />
       ))}
+      <ScoreCard />
     </div>
   );
 }
