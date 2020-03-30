@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Question from "./components/Question/Question";
-
+import { QuestionsContext } from "./contexts/QuestionsContext";
 import seedQuestions from "./seeddata/questions";
 
 function App() {
-  const [questions] = useState(seedQuestions);
+  const [questions] = useContext(QuestionsContext);
 
   return (
     <div className="bg-gray-200 pt-8 px-4 min-h-screen">

@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import QuestionsProvider from "./contexts/QuestionsContext";
 
 // CSS dependencies for App
 import "./assets/main.css";
@@ -12,7 +13,9 @@ import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <QuestionsProvider>
+      <App />
+    </QuestionsProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
