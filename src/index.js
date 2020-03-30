@@ -15,8 +15,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <React.StrictMode basename={"/react-quiz"}>
-    <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename={"/react-quiz"}>
       <QuestionsProvider>
         <QuizSessionProvider>
           <App />
