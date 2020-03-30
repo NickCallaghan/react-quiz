@@ -42,6 +42,7 @@ export default function Question(props) {
           <div className="mb-2">
             <RadioButton
               checked={selectedAnswer === index ? true : false}
+              disabled={isCorrect !== null}
               inputId={index}
               name={`answer-${index}`}
               value={index}
