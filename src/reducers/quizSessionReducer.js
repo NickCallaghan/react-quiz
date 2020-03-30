@@ -8,7 +8,7 @@
 
 const quizSessionReducer = (quizSession, action) => {
   let updatedSession = {};
-
+  console.log(action.playerName);
   switch (action.type) {
     case "AddPlayerName":
       updatedSession = { ...quizSession };
@@ -21,8 +21,8 @@ const quizSessionReducer = (quizSession, action) => {
         ? (updatedSession.questionsCorrect += 1)
         : (updatedSession.questionsCorrect += 0);
       return updatedSession;
-    default:
-      return quizSession;
+    // default:
+    //   return quizSession;
   }
 };
 

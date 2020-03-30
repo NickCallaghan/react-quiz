@@ -19,9 +19,7 @@ ReactDOM.render(
     <BrowserRouter>
       <QuestionsProvider>
         <QuizSessionProvider>
-          <DispatchProvider>
-            <App />
-          </DispatchProvider>
+          <App />
         </QuizSessionProvider>
       </QuestionsProvider>
     </BrowserRouter>
