@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import { useReducer } from "react";
 import quizSessionReducer from "../reducers/quizSessionReducer";
 
 export default function useQuizSession() {
@@ -13,5 +13,6 @@ export default function useQuizSession() {
     quizSessionReducer,
     initialQuizSession
   );
+
   return [quizSession, dispatch];
 }

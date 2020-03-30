@@ -7,7 +7,8 @@
 //   };
 
 const quizSessionReducer = (quizSession, action) => {
-  const updatedSession = {};
+  let updatedSession = {};
+
   switch (action.type) {
     case "AddPlayerName":
       updatedSession = { ...quizSession };
@@ -20,6 +21,8 @@ const quizSessionReducer = (quizSession, action) => {
         ? (updatedSession.questionsCorrect += 1)
         : (updatedSession.questionsCorrect += 0);
       return updatedSession;
+    default:
+      return quizSession;
   }
 };
 

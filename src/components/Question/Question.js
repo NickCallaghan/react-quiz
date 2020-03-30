@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
+import { QuizSessionContext } from "../../contexts/QuizSessionContext";
+import { DispatchContext } from "../../contexts/QuizSessionContext";
 import { Card } from "primereact/card";
 import { RadioButton } from "primereact/radiobutton";
 
@@ -6,6 +8,8 @@ export default function Question(props) {
   const { questionText, answers, correctAnswer } = props.question;
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
+  const quizSession = useContext(QuizSessionContext);
+  const dispatch = useContext(DispatchContext);
 
   const handleChooseAnswer = answerIndex => {
     setSelectedAnswer(answerIndex);
@@ -13,6 +17,12 @@ export default function Question(props) {
       ? setIsCorrect(true)
       : setIsCorrect(false);
   };
+
+  useEffect(() => {
+    if (isCorrect !== null) {
+      dispatch({ type: "AnswerQuestion", isCorrect });
+    }
+  }, [isCorrect]);
 
   const header = (
     <div className="bg-indigo-700 text-xl white py-4 px-4 font-semibold text-white">

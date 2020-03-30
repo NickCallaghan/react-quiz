@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import QuestionsProvider from "./contexts/QuestionsContext";
 import QuizSessionProvider from "./contexts/QuizSessionContext";
+import DispatchProvider from "./contexts/QuizSessionContext";
 
 // CSS dependencies for App
 import "./assets/main.css";
@@ -16,7 +17,9 @@ ReactDOM.render(
   <React.StrictMode>
     <QuestionsProvider>
       <QuizSessionProvider>
-        <App />
+        <DispatchProvider>
+          <App />
+        </DispatchProvider>
       </QuizSessionProvider>
     </QuestionsProvider>
   </React.StrictMode>,
