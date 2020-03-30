@@ -13,7 +13,7 @@ function App() {
         <span className="text-indigo-500"> Built Using React</span>
       </h1>
       {questions.map(q => (
-        <Question question={q} />
+        <Question question={q} key={q.id} />
       ))}
     </div>
   );
