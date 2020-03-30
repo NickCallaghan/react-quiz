@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import QuestionsProvider from "./contexts/QuestionsContext";
+import QuizSessionProvider from "./contexts/QuizSessionContext";
 
 // CSS dependencies for App
 import "./assets/main.css";
@@ -14,7 +15,9 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <React.StrictMode>
     <QuestionsProvider>
-      <App />
+      <QuizSessionProvider>
+        <App />
+      </QuizSessionProvider>
     </QuestionsProvider>
   </React.StrictMode>,
   document.getElementById("root")
