@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fb8169f025ef7db4e91b57beba8be6e",
+    "revision": "f79132a21892baf3ee7396b48616af72",
     "url": "/react-quiz/index.html"
   },
   {
-    "revision": "babc15051ce50d2af46d",
+    "revision": "f89f9a12fd5118d13643",
     "url": "/react-quiz/static/css/2.6da2c340.chunk.css"
   },
   {
-    "revision": "633d41352152951cbd60",
+    "revision": "bd82d97526afc4d9eb65",
     "url": "/react-quiz/static/css/main.119390ab.chunk.css"
   },
   {
-    "revision": "babc15051ce50d2af46d",
-    "url": "/react-quiz/static/js/2.cc851f3d.chunk.js"
+    "revision": "f89f9a12fd5118d13643",
+    "url": "/react-quiz/static/js/2.019c2eea.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-quiz/static/js/2.cc851f3d.chunk.js.LICENSE.txt"
+    "url": "/react-quiz/static/js/2.019c2eea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "633d41352152951cbd60",
-    "url": "/react-quiz/static/js/main.76162b50.chunk.js"
+    "revision": "bd82d97526afc4d9eb65",
+    "url": "/react-quiz/static/js/main.5d4bbf76.chunk.js"
   },
   {
     "revision": "b1f2344ec01366e134c1",

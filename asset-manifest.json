@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-quiz/static/css/main.119390ab.chunk.css",
-    "main.js": "/react-quiz/static/js/main.76162b50.chunk.js",
-    "main.js.map": "/react-quiz/static/js/main.76162b50.chunk.js.map",
+    "main.js": "/react-quiz/static/js/main.5d4bbf76.chunk.js",
+    "main.js.map": "/react-quiz/static/js/main.5d4bbf76.chunk.js.map",
     "runtime-main.js": "/react-quiz/static/js/runtime-main.9e74c316.js",
     "runtime-main.js.map": "/react-quiz/static/js/runtime-main.9e74c316.js.map",
     "static/css/2.6da2c340.chunk.css": "/react-quiz/static/css/2.6da2c340.chunk.css",
-    "static/js/2.cc851f3d.chunk.js": "/react-quiz/static/js/2.cc851f3d.chunk.js",
-    "static/js/2.cc851f3d.chunk.js.map": "/react-quiz/static/js/2.cc851f3d.chunk.js.map",
+    "static/js/2.019c2eea.chunk.js": "/react-quiz/static/js/2.019c2eea.chunk.js",
+    "static/js/2.019c2eea.chunk.js.map": "/react-quiz/static/js/2.019c2eea.chunk.js.map",
     "index.html": "/react-quiz/index.html",
-    "precache-manifest.8bc44abb7dc54a1c017826cba1aa172b.js": "/react-quiz/precache-manifest.8bc44abb7dc54a1c017826cba1aa172b.js",
+    "precache-manifest.6da097f07ceb131bf9299522df20d1cc.js": "/react-quiz/precache-manifest.6da097f07ceb131bf9299522df20d1cc.js",
     "service-worker.js": "/react-quiz/service-worker.js",
     "static/css/2.6da2c340.chunk.css.map": "/react-quiz/static/css/2.6da2c340.chunk.css.map",
     "static/css/main.119390ab.chunk.css.map": "/react-quiz/static/css/main.119390ab.chunk.css.map",
-    "static/js/2.cc851f3d.chunk.js.LICENSE.txt": "/react-quiz/static/js/2.cc851f3d.chunk.js.LICENSE.txt",
+    "static/js/2.019c2eea.chunk.js.LICENSE.txt": "/react-quiz/static/js/2.019c2eea.chunk.js.LICENSE.txt",
     "static/media/primereact.min.css": "/react-quiz/static/media/line.567f5738.gif",
     "static/media/theme.css": "/react-quiz/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
     "static/media/primeicons.css": "/react-quiz/static/media/primeicons.e5e0e944.svg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.9e74c316.js",
     "static/css/2.6da2c340.chunk.css",
-    "static/js/2.cc851f3d.chunk.js",
+    "static/js/2.019c2eea.chunk.js",
     "static/css/main.119390ab.chunk.css",
-    "static/js/main.76162b50.chunk.js"
+    "static/js/main.5d4bbf76.chunk.js"
   ]
 }
